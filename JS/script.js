@@ -54,7 +54,7 @@
 
         for (const task of tasks) {
             htmlString += `
-                <li class="tasks_done">
+                <li class="tasks__item">
                 <button class="js-done  tasks__button tasks__button--toggleDone">
                 ${task.done ? "✔" : ""}                
                 </button>

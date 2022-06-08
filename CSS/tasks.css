@@ -1,10 +1,9 @@
 .tasks {
     list-style: none;
     border-bottom: 1px solid #ddd;
-    margin: 30px 0;
-        
-        
-    }
+    margin: 0;
+    padding: 0;
+                  }
 
 .tasks__button{
     border: none;
@@ -18,10 +17,24 @@
     background: hsl(120, 61%, 34%);
     
 }
+.tasks__button--toggleDone:hover {
+    background: hsl(120, 61%, 39%);
+}
+
+.tasks__button--toggleDone:active {
+    background: hsl(120, 61%, 44%);
+}
 .tasks__button--remove {
     background: hsl(348, 83%, 47%);
 }
-.tasks_done {
+.tasks__button--remove:hover {
+    background: hsl(348, 83%, 52%);
+}
+
+.tasks__button--remove:active {
+    background: hsl(348, 83%, 57%);
+}
+.tasks__item {
     display: grid;
         grid-template-columns: auto 1fr auto;
         grid-gap: 10px;
