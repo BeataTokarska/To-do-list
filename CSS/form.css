@@ -1,10 +1,23 @@
 
-.form { 
+.form { display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
 
+}
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
 }
 
 .form_button {
     color: white;
     background-color: teal;
     border: none;
+    padding: 10px;
+    margin: 10px;
 }
+.form_NewTask {
+padding: 10px
+}
+    

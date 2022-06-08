@@ -4,4 +4,5 @@
     max-width: 900px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    word-break: break-word
 }
