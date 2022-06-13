@@ -1,23 +1,16 @@
 .section {
-    
     background-color: white;
     padding: 20px 20px;
     margin: 10px 0;
     box-shadow: 0 0 5px #ddd;
-    
-
-    
-    /* display: grid;
-    grid-template-row: 2fr 3fr
-    grid-gap: 15px; */
 }
 
 .section__header {
     border-bottom: 1px solid #ddd;
     padding: 10px;
     margin: 0;
-  }
+}
 
-  .section__body{
-      padding: 20px;
-  }
+.section__body {
+    padding: 20px;
+}

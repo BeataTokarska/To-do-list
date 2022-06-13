@@ -1,8 +1,7 @@
-
-.form { display: grid;
+.form {
+    display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 10px;
-
 }
 
 @media (max-width: 767px) {
@@ -16,16 +15,16 @@
     background-color: teal;
     border: none;
     padding: 10px;
-    margin: 10px;
 }
 
 .form__button:hover {
     background: hsl(180, 100%, 35%);
-
-    }
-.form__button:active {
-background: hsl(180, 100%, 35%);
 }
+
+.form__button:active {
+    background: hsl(180, 100%, 35%);
+}
+
 .form__NewTask {
-padding: 10px
+    padding: 10px
 }

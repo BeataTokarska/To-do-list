@@ -1,9 +1,7 @@
 .body {
     background-color: #eee;
     padding: 15px 25px;
-   
-    margin: auto;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    word-break: break-word
-    max-width: 900px
+    word-break: break-word max-width: 900px
 }
