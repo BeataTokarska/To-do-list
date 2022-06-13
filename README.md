@@ -1,5 +1,5 @@
 # To Do List 
-# [Go to website ](https://beatatokarska.github.io/To-do-list/)
+# [Go to website ]([https://beatatokarska.github.io/To-do-list/)
 
 ![demo](https://github.com/BeataTokarska/To-do-list/blob/main/images/to-do-list-picture.jpg?raw=true)
 
