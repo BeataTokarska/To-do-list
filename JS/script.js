@@ -11,16 +11,29 @@
         render();
     };
 
-    const removeTask = (TaskIndex) => {
-
-        tasks.splice(TaskIndex, 1);
+    const removeTask = (taskIndex) => {
+tasks = [
+    ...tasks.slice(0, taskIndex),
+    ...tasks.slice(taskIndex +1),
+];
+        // tasks.splice(taskIndex, 1);
         render();
-    }
+    };
 
-    const toggleTaskDone = (TaskIndex) => {
-        tasks[TaskIndex].done = !tasks[TaskIndex].done;
+    const toggleTaskDone = (taskIndex) => {
+        tasks = [
+            ...tasks.slice(0, taskIndex),
+
+        {
+            ...tasks[taskIndex],
+            done: !tasks[taskIndex].done,
+
+        },
+        ...tasks.slice(taskIndex + 1),
+        ];
+        // tasks[taskIndex].done = !tasks[taskIndex].done;
         render();
-    }
+    };
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
@@ -48,6 +61,7 @@
         for (const task of tasks) {
             htmlString += `
                 <li class="tasks__item">
+               
                 <button class="js-done  tasks__button tasks__button--toggleDone">
                 ${task.done ? "✔" : ""}                
                 </button>
@@ -63,7 +77,9 @@
        
     };
 
-    const renderButtons = () => {};
+    const renderButtons = () => {
+       
+    };
     const bindButtonsEvents = () => {
         // IFjesli jest button to przypisujemy even listener a jak nie to nie 
     };
