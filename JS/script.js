@@ -35,6 +35,19 @@ tasks = [
         render();
     };
 
+    const markAllTasksDone = () => {
+tasks = tasks.map((task) => ({
+    ...task,
+    done: true,
+}));
+        render();
+    }
+
+const toggleHideDoneTasks = () => {
+    hideDoneTasks = !hideDoneTasks;
+    render();
+}
+
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
 
@@ -78,7 +91,7 @@ tasks = [
     };
 
     const renderButtons = () => {
-       
+        // ta funkcja zrobi html na podstawie task i hideDoneTasks którego wrzucimy do elementu w ktorym te przysiski maja sie znalezc. potem odpala sie render 
     };
     const bindButtonsEvents = () => {
         // IFjesli jest button to przypisujemy even listener a jak nie to nie 
