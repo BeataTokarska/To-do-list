@@ -1,7 +1,7 @@
 .form {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 @media (max-width: 767px) {
@@ -10,11 +10,16 @@
     }
 }
 
+.form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
 .form__button {
+    padding: 10px; 
     color: white;
     background-color: teal;
-    border: none;
-    padding: 10px;
+    border: none;    
     transition: 0.3s;
 }
 
@@ -27,6 +32,6 @@
     background: hsl(180, 100%, 35%);
 }
 
-.form__newTask {
+/* .form__newTask {
     padding: 10px
-}
+} */
