@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+.tasks__item--hidden {
+    display: : none;
+}
+
 .tasks__button {
     border: none;
     color: white;

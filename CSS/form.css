@@ -15,16 +15,18 @@
     background-color: teal;
     border: none;
     padding: 10px;
+    transition: 0.3s;
 }
 
 .form__button:hover {
     background: hsl(180, 100%, 35%);
+    transform: scale(1.1);
 }
 
 .form__button:active {
     background: hsl(180, 100%, 35%);
 }
 
-.form__NewTask {
+.form__newTask {
     padding: 10px
 }
