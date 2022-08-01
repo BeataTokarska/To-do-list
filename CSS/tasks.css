@@ -46,6 +46,7 @@
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
+
 .tasks__item--hidden {
     display: none;
 }
