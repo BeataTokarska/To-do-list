@@ -1,4 +1,6 @@
 .tasks {
+    /* display: flex;
+    flex-direction: column; */
     list-style: none;
     border-bottom: 1px solid #ddd;
     margin: 0;
