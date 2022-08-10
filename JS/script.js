@@ -73,11 +73,11 @@
                 <span class="tasks__content${task.done ? " tasks__content--done" : ""}">
                 ${task.content}
                 </span>
-        <button class="js-remove tasks__button tasks__button--remove">
-        🗑
-        </button>
-                </li>
-                `;
+            <button class="js-remove tasks__button tasks__button--remove">
+            🗑
+            </button>
+            </li>
+            `;
 
         const tasksElement = document.querySelector(".js-task");
         tasksElement.innerHTML = tasks.map(taskToHTML).join("");
@@ -96,7 +96,7 @@
             ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
             </button>
             <button class="buttons__button js-markAllDone"
-            ${ tasks.every(({ done }) => done) ? "disabled" : ""}>
+            ${tasks.every(({ done }) => done) ? "disabled" : ""}>
             Ukończ wszystkie
             </button>
             `;

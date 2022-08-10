@@ -10,3 +10,9 @@
 - organized housekeeping
 - set long term plans
 - simply  add and remove tasks
+
+## Used:
+- HTML
+- JavaScript
+- CSS
+- MarkDown

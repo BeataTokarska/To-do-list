@@ -21,6 +21,7 @@
     background-color: teal;
     border: none;    
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .form__button:hover {
@@ -32,6 +33,3 @@
     background: hsl(180, 100%, 35%);
 }
 
-/* .form__newTask {
-    padding: 10px
-} */
